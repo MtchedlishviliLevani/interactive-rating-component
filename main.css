@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+.card1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 28px 40px 32px 32px;
+  background-color: rgba(24, 30, 39, 1);
+  max-width: 420px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+body {
+  background-color: #232a34;
+  font-family: "Overpass", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.card1 p {
+  color: rgba(150, 159, 173, 1);
+  margin: 15px 0 20px 0;
+  line-height: 25px;
+
+  font-size: 15px;
+}
+
+.star {
+  background-color: #262e38;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.card1 .star > span {
+  color: #fc7614;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers > div {
+  background: rgba(38, 46, 56, 1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers > div > span {
+  color: white;
+}
+.numbers > div:hover {
+  cursor: pointer;
+  background-color: #fc7614;
+}
+
+.card1 button {
+  background-color: #fc7614;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 11px 0;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.card1 button:hover {
+  background-color: white;
+  color: rgba(252, 118, 20, 1);
+}
+
+.card2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  max-width: 420px;
+  width: 100%;
+  background-color: rgba(24, 30, 39, 1);
+  padding: 34px 28px 37px 28px;
+  display: none;
+}
+
+.card2 img {
+  display: block;
+  margin: auto;
+}
+
+.score {
+  border-radius: 12px;
+  padding: 9px;
+  background-color: rgba(38, 46, 56, 1);
+  margin: 24px auto;
+}
+
+.score h3 {
+  color: #fc7614;
+  text-align: center;
+}
+
+.numbers > div > span {
+  font-size: 20px;
+}
+
+.card2 span {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card2 p {
+  color: rgba(150, 159, 173, 1);
+  line-height: 22px;
+  text-align: center;
+}
+
+#rating {
+  display: inline;
+  font-size: inherit;
+  color: inherit;
+  width: 100%;
+}
